@@ -12,4 +12,9 @@ public class DisplayController {
         return "crone";
     }
 
+    @RequestMapping("/conveyor")
+    public String conveyor() {
+        return "conveyor";
+    }
+
 }
