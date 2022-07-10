@@ -17,4 +17,9 @@ public class DisplayController {
         return "conveyor";
     }
 
+    @RequestMapping("/electricHoist")
+    public String electricHoist() {
+        return "electricHoist";
+    }
+
 }
