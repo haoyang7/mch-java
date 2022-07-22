@@ -22,4 +22,9 @@ public class DisplayController {
         return "electricHoist";
     }
 
+    @RequestMapping("/hydraulicCargoElevator")
+    public String hydraulicCargoElevator() {
+        return "hydraulicCargoElevator";
+    }
+
 }
